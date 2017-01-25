@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="StackLayout.ImagePage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <StackLayout HorizontalOptions="Center">
+        <StackLayout Padding="10,10,10,10">
+            <Label
+                FontAttributes="Bold"
+                FontSize="24"
+                Text="Jeyara Photogrphy" />
+        </StackLayout>
+        <StackLayout>
+            <Image Source="https://drscdn.500px.org/photo/120098337/q%3D80_m%3D2000/6dfbfb5b3f719662ba27d2496ab08856" />
+        </StackLayout>
+        <StackLayout Padding="10,5,10,5" Orientation="Horizontal">
+            <Button Text="Like" />
+            <Button Text="Comment" />
+            <Button Text="Share" />
+        </StackLayout>
+        <StackLayout Padding="10,5,10,5">
+            <BoxView HeightRequest="1" Color="#f0f0f0" />
+            <Label
+                FontAttributes="Bold"
+                FontSize="20"
+                Text="Opera house under siege" />
+        </StackLayout>
+        <StackLayout Padding="10,0,10,0">
+            <Label Text="This photo was taken with luck. Just went to shoot with my friend for an unplanned shooting. Suddenly, heaven did open and started to pour with thunderstorm. We didn't had proper protection from rain either. but effort did paid off." />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
